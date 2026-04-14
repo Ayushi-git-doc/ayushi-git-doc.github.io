@@ -1,1 +1,149 @@
-<h1>riya</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Riya Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background:#0d1b2a;
+  color:white;
+}
+
+/* Navbar */
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 50px;
+}
+
+nav a{
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+}
+
+.btn{
+  background:orange;
+  padding:10px 20px;
+  border-radius:20px;
+}
+
+/* Hero */
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:50px;
+}
+
+.hero img{
+  width:300px;
+}
+
+.hero h1{
+  font-size:40px;
+}
+
+.hero button{
+  margin-top:20px;
+  padding:10px 20px;
+  border:none;
+  border-radius:20px;
+}
+
+/* About */
+.about{
+  padding:50px;
+  text-align:center;
+}
+
+/* Skills */
+.skills{
+  padding:50px;
+}
+
+.skill-box{
+  background:#1b263b;
+  padding:20px;
+  margin:10px;
+  border-radius:10px;
+}
+
+/* Grid */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+  gap:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Portfolio</h2>
+  <div>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Skills</a>
+    <a href="#">Contact</a>
+  </div>
+  <a class="btn">Hire Me</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <h1>Hi, I'm Riya 👋</h1>
+    <p>Web Designer | WordPress Developer | UI/UX Designer</p>
+
+    <button class="btn">Download CV</button>
+    <button>Contact Me</button>
+  </div>
+
+  <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png">
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About Me</h2>
+  <p>I create modern and responsive websites with great UI/UX.</p>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+  <h2>My Skills</h2>
+
+  <div class="grid">
+    <div class="skill-box">HTML - 90%</div>
+    <div class="skill-box">CSS - 85%</div>
+    <div class="skill-box">JavaScript - 80%</div>
+    <div class="skill-box">WordPress - 95%</div>
+    <div class="skill-box">UI/UX - 90%</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="about">
+  <h2>My Projects</h2>
+  <p>Coming Soon...</p>
+</section>
+
+</body>
+</html>
